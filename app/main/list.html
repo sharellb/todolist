@@ -1,0 +1,8 @@
+
+
+<h4>To Do List</h4>
+<ul>
+	<li ng-repeat="thing in things">{{thing.name}} <button ng-click="remove(item)">Remove</button></li>
+</ul>
+<input ng-model="thingToAdd" />
+<button ng-click="add(thingToAdd)" ng-model="thingToAdd">Add</button>
